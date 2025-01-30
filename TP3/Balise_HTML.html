@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mémo HTML</title>
+    <style>
+        /* Style minimal pour la mise en page */
+        section { margin: 20px 0; padding: 15px; border: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <h1>Mémo HTML</h1>
+        <nav>
+            <a href="#texte">Texte</a> | 
+            <a href="#liens">Liens</a> | 
+            <a href="#listes">Listes</a>
+        </nav>
+    </header>
+
+    <!-- Contenu principal -->
+    <main>
+        <!-- Section texte -->
+        <section id="texte">
+            <h2>Titres</h2>
+            <h1>h1</h1><h2>h2</h2><h3>h3</h3>
+            
+            <h2>Paragraphes</h2>
+            <p>Paragraphe normal <strong>texte important</strong> et <em>texte accentué</em>.</p>
+            <p>Texte avec<br>saut de ligne</p>
+            <hr>
+        </section>
+
+        <!-- Liens et images -->
+        <section id="liens">
+            <h2>Liens</h2>
+            <a href="https://example.com">Lien externe</a>
+            
+            <h2>Images</h2>
+            <img src="placeholder.jpg" alt="Exemple d'image" width="100">
+        </section>
+
+        <!-- Listes -->
+        <section id="listes">
+            <h2>Liste non ordonnée</h2>
+            <ul>
+                <li>Élément 1</li>
+                <li>Élément 2</li>
+            </ul>
+
+            <h2>Liste ordonnée</h2>
+            <ol>
+                <li>Premier</li>
+                <li>Deuxième</li>
+            </ol>
+        </section>
+
+        <!-- Tableau -->
+        <section>
+            <h2>Tableau</h2>
+            <table>
+                <tr><th>En-tête</th><th>En-tête</th></tr>
+                <tr><td>Donnée</td><td>Donnée</td></tr>
+            </table>
+        </section>
+
+        <!-- Formulaire -->
+        <section>
+            <h2>Formulaire</h2>
+            <form>
+                <label>Nom : <input type="text" placeholder="Entrez votre nom"></label><br>
+                <textarea rows="3">Message...</textarea><br>
+                <select>
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                </select><br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+        <!-- Médias -->
+        <section>
+            <h2>Médias</h2>
+            <audio controls><source src="son.mp3" type="audio/mpeg"></audio><br>
+            <video controls width="200"><source src="video.mp4" type="video/mp4"></video>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>© 2023 Mémo HTML</p>
+        <address>Contact : email@example.com</address>
+    </footer>
+
+    <!-- Intégration JS -->
+    <script>
+        // Script JavaScript simple
+        console.log("Page chargée !");
+    </script>
+</body>
+</html>
