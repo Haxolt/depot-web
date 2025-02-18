@@ -36,9 +36,9 @@
 
         nav {
             display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
             margin-top: 2rem;
         }
 
@@ -51,29 +51,14 @@
             transition: all 0.3s ease;
             font-weight: 500;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            width: 200px;
+            text-align: center;
         }
 
         nav a:hover {
             background-color: #2980b9;
             transform: translateY(-2px);
             box-shadow: 0 6px 8px rgba(0,0,0,0.2);
-        }
-
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 2rem;
-            }
-            
-            nav {
-                flex-direction: column;
-                align-items: center;
-                gap: 1rem;
-            }
-            
-            nav a {
-                width: 100%;
-                text-align: center;
-            }
         }
     </style>
 </head>
@@ -82,7 +67,7 @@
         <h1>TP3</h1>
         <nav>
             <a href="../Acceuil.html">Accueil</a>
-            <a href="Balise_HTML.html">Exercise 1 - Ballse HTML</a>
+            <a href="Balise_HTML.html">Exercise 1 - Balise HTML</a>
             <a href="SQL.html">Exercise 2 - SQL</a>
             <a href="CV.html">Exercise 3 - CV</a>
         </nav>
